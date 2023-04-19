@@ -3,7 +3,6 @@ import * as S from './styles'
 import { alterarFiltro } from '../../store/reducers/filtro'
 import * as enums from '../../utils/enums/Tarefa'
 import { RootReducer } from '../../store'
-import tarefas from '../../store/reducers/tarefas'
 
 export type Props = {
   legenda: string
